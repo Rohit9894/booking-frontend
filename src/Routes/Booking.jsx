@@ -92,6 +92,7 @@ const Booking = () => {
   return (
     <div className="flex container w-screen min-h-screen items-center justify-center bg-gray-300">
       <div>
+        <i>Please run the server first locally (please see readme.md)</i>
         <div onClick={handleBack} className="mb-6 flex justify-between items-center cursor-pointer">
           <Button className="flex gap-2" disabled={active === "name"}>
             {" "}
