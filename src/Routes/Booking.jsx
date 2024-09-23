@@ -33,13 +33,13 @@ const Booking = () => {
       delete formState.type;
       const date1 = new Date(formState.startDate);
       const date2 = new Date(formState.endDate);
-      
+
       if (date1.getTime() > date2.getTime()) {
         return toast({
           title: "End Date must be grater than Start Date",
           description: "",
         });
-      } 
+      }
       try {
         const res = await axios.post(
           "http://localhost:3000/booking",
@@ -92,12 +92,19 @@ const Booking = () => {
   return (
     <div className="flex container w-screen min-h-screen items-center justify-center bg-gray-300">
       <div>
-        <div onClick={handleBack} className="mb-6 cursor-pointer">
+        <div onClick={handleBack} className="mb-6 flex justify-between items-center cursor-pointer">
           <Button className="flex gap-2" disabled={active === "name"}>
             {" "}
             <CircleChevronLeft />
             Back
           </Button>
+          <a
+            className="underline"
+            href="http://localhost:3000/booking"
+            target="blank"
+          >
+            All Bookings
+          </a>
         </div>
         <form
           onSubmit={handleSubmt}
