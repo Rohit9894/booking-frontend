@@ -1,8 +1,37 @@
-# React + Vite
+# Clone the project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clone the repo for backend
 
-Currently, two official plugins are available:
+```bash
+  git https://github.com/Rohit9894/booking-Backend.git
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Repo Link
+
+```bash
+  git https://github.com/Rohit9894/booking-Backend
+```
+
+npm i
+
+run
+
+```bash
+  npm run dev
+```
+
+## Fronted
+
+Clone the repo for fronted
+
+```bash
+  git https://github.com/Rohit9894/booking-frontend.git
+```
+
+npm i
+
+run
+
+```bash
+  npm run dev
+```
